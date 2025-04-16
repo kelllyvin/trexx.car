@@ -38,13 +38,13 @@ const Howitworks = () => {
         <div>
           <img src={search} alt="" />
         </div>
-        <div>
+        <div className='mt-3'>
           <img src={line} alt="" />
         </div>
         <div>
           <img src={park} alt="" />
         </div>
-        <div>
+        <div className='mt-3'>
           <img src={line} alt="" />
         </div>
         <div>

@@ -176,3 +176,51 @@ export const cars = [
     numOfPassengers: 4,
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "James Harden",
+    comment:
+      "With Trex Cars, I quickly found services, secured cars securely, and enjoyed lovely luxurious during my breaks.",
+    image:
+      "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZhY2V8ZW58MHx8MHx8fDA%3D",
+    handle: "jamesHard",
+  },
+  {
+    id: 2,
+    name: "John Doe",
+    comment:
+      "Lorem ipsum dolor sit amet, ssfsf consectetur adipiscing elit. Nunc vulputate, lorem ipsum dolor amet",
+    image:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZhY2V8ZW58MHx8MHx8fDA%3D",
+    handle: "johndoe",
+  },
+  {
+    id: 3,
+    name: "Jane Doe",
+    comment:
+      "With Trex Cars, I quickly found services, secured cars securely, and enjoyed lovely luxurious during my breaks.",
+    image:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZhY2V8ZW58MHx8MHx8fDA%3D",
+    handle: "janeeyyy",
+  },
+  {
+    id: 4,
+    name: "Troy Deenay",
+    comment:
+      "With Trex Cars, I quickly found services, secured cars securely, and enjoyed lovely luxurious during my breaks.",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D",
+    handle: "DeeneyTr",
+  },
+  {
+    id: 5,
+    name: "Johnny Blaze",
+    comment:
+      "With Trex Cars, I quickly found services, secured cars securely, and enjoyed lovely luxurious during my breaks.",
+    image:
+      "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D",
+    handle: "blaze",
+  },
+];
