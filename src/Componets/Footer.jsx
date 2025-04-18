@@ -12,13 +12,13 @@ const Footer = () => {
   ];
 
   return (
-    <div>
+    
       <div className="layout ">
-        <div className="flex flex-col lg:flex lg:flex-row lg:items-center lg:justify-between h-[105px]">
+        <div className=" h-[219px] flex flex-col lg:flex lg:flex-row lg:items-center lg:justify-between lg:h-[105px]">
           <div>
             <img src={blacklogo} alt="trex logo" />
           </div>
-          <div className=" flex flex-col lg:flex lg:flex-row  lg:gap-[40px] text-[20px] underline  ">
+          <div className="  flex flex-col lg:flex lg:flex-row  lg:gap-[40px] text-[20px] underline    ">
             {links.map((links, index) => {
               return (
                 <a key={index} href={links.to}>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="mb-10">
-          This website is owned and operated by Masref Ltd., incorporated in the
+          This website is owned and operated by csy Ltd., incorporated in the
           United Kingdom The information provided is not legally binding and
           does not constitute an offering, endorsement, recommendation or
           solicitation to enter into any type of financial transaction in this
@@ -37,7 +37,7 @@ const Footer = () => {
           be unlawful under the laws of such jurisdiction.
         </p>
       </div>
-    </div>
+    
   );
 };
 

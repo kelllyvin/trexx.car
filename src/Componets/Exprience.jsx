@@ -43,7 +43,10 @@ const Exprience = () => {
         <div className="w-full h-full lg:flex gap-[38px] md:block mx-auto">
           {text.map((t, index) => {
             return (
-              <div className=" rounded-[14px] border border-white shadow-lg mt-[40px] h-[298px]  py-2 px-5">
+              <div
+                className=" rounded-[14px] border border-white shadow-lg mt-[40px] h-[298px]  py-2 px-5"
+                key={index}
+              >
                 <h1 className="text-[28px] font-semibold text-black my-[10px] mt-[20px] ">
                   {t.p}
                 </h1>
@@ -56,12 +59,15 @@ const Exprience = () => {
           <h1 className="text-[19px]">
             Trusted by customers since <span className="font-bold">1990</span>
           </h1>
-          <div className=" mt-10 lg:flex gap-[40px] md:block text-lg mb-10  ">
+          <div className=" mt-10 flex-col lg:flex-row gap-[40px]  text-lg mb-10  ">
+            
             {text1.map((t, index) => {
               return (
                 <div key={index}>
+                 
                   <p>{t.p}</p>
-                  <h1 className="font-bold text-[26px]">{t.h1}</h1>
+                  <h1 className="font-bold text-[26px] flex ">{t.h1}<IoMdAdd className="mt-2 ml- " /></h1>
+                
                 </div>
               );
             })}
@@ -73,14 +79,4 @@ const Exprience = () => {
 };
 
 export default Exprience;
-export const Fecthdata = () => {
-  useEffect(() => {
-    const getProducts = async () => {
-      const res = await fecth(url);
-      const data = await res.json();
-      console.log(data);
-    };
-    getProducts();
-  }, []);
-  return <div></div>;
-};
+
